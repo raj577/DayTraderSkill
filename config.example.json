@@ -1,0 +1,40 @@
+{
+  "broker": "none",
+  "exchange": "NSE",
+  "product": "MIS",
+  "paper": true,
+  "budget": 100000,
+  "cash_buffer_pct": 10,
+  "max_loss_per_trade": 1000,
+  "max_daily_loss": 3000,
+  "max_trades_per_day": 3,
+  "max_orders_per_day": 10,
+  "max_position_pct": 25,
+  "max_order": 50000,
+  "min_order": 500,
+  "min_reward_risk": 1.0,
+  "require_stop": true,
+  "no_entries_before": "09:20",
+  "no_entries_after": "14:45",
+  "flat_by": "15:12",
+  "min_price": 20,
+  "min_turnover_lacs": 500,
+  "allow_short": false,
+  "allow_options": false,
+  "blocked": [],
+  "costs": {
+    "brokerage_pct": 0.0003,
+    "brokerage_cap": 20.0,
+    "stt_sell": 0.00025,
+    "exchange_txn": 0.0000297,
+    "sebi": 0.000001,
+    "stamp_buy": 0.00003,
+    "gst": 0.18,
+    "dp_per_sell": 0.0
+  },
+  "notes": [
+    "flat_by 15:12 is deliberate: discount brokers square off MIS intraday positions around 15:15-15:25.",
+    "costs are for NSE cash-equity intraday (MIS) at a discount broker. Delivery and F&O differ.",
+    "paper true is the default. Nothing here places an order."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "day-trader-skill-india",
+  "description": "The Day Trader skill pack for the Indian market (NSE cash equities)",
+  "owner": {
+    "name": "Rajat"
+  },
+  "plugins": [
+    {
+      "name": "day-trader-skill-india",
+      "description": "Nine skills for NSE day trading: a chart scanner, a news monitor, an entry planner, an exit planner, a session replay, a position sizer, a pre-trade risk check, a paper order ticket, and price alerts.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "day-trader-skill-india",
+  "description": "Nine agent skills for day trading NSE cash equities in India: scan NSE charts, track headlines, time entries and exits, replay sessions, size positions in rupees, check risk, keep a paper book, and set price alerts.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rajat"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "opencode",
+    "day-trading",
+    "nse",
+    "india",
+    "opening-range-breakout",
+    "paper-trading"
+  ],
+  "skills": "./"
+}
